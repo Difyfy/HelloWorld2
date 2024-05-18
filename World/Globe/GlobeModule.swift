@@ -10,7 +10,7 @@ import SwiftUI
 /// The module detail content that's specific to the globe module.
 struct GlobeModule: View {
     var body: some View {
-        Image("GlobeHero")
+        Image("SolarHero")//GlobeHero
             .resizable()
             .scaledToFit()
     }

@@ -15,12 +15,12 @@ class ViewModel {
     var navigationPath: [Module] = []
     var titleText: String = ""
     var isTitleFinished: Bool = false
-    var finalTitle: String = "Hello World"
+    var finalTitle: String = "Quantum Cosmology"//Hello World
 
     // MARK: - Globe
     var isShowingGlobe: Bool = false
     var globeEarth: EarthEntity.Configuration = .globeEarthDefault
-    var isGlobeRotating: Bool = false
+    var isGlobeRotating: Bool = true //false
     var globeTilt: GlobeTilt = .none
 
     // MARK: - Orbit
@@ -34,7 +34,8 @@ class ViewModel {
     var solarEarth: EarthEntity.Configuration = .solarEarthDefault
     var solarSatellite: SatelliteEntity.Configuration = .solarTelescopeDefault
     var solarMoon: SatelliteEntity.Configuration = .solarMoonDefault
-
+    
+    //THIS IS DISTANCE of the Sun away from the Earth. I must put the Earth and moon at 700, and the Sun at ZERO!! ******************
     var solarSunDistance: Double = 700
     var solarSunPosition: SIMD3<Float> {
         [Float(solarSunDistance * sin(solarEarth.sunAngle.radians)),

@@ -15,11 +15,11 @@ struct TableOfContents: View {
         @Bindable var model = model
         
         VStack {
-            Image("SunSliver")
+            Image("SunSliver")//
                 .opacity(model.isTitleFinished ? 1 : 0)
                 .accessibility(hidden: true)
 
-            Spacer(minLength: 120)
+            Spacer(minLength: 80)//120 ... 280
 
             VStack {
                 // A hidden version of the final text keeps the layout fixed
@@ -31,7 +31,8 @@ struct TableOfContents: View {
                         TitleText(title: model.titleText)
                             .padding(.leading, 70)
                     }
-                Text("Discover a new way of looking at the world.")
+                //This is the TEXT FOR THE OPENING QCARD! *****
+                Text("EMBODIED COGNITION: Discover the only way to understand the universe.")//Discover a new way of looking at the world.
                     .font(.title)
                     .opacity(model.isTitleFinished ? 1 : 0)
             }
@@ -57,9 +58,12 @@ struct TableOfContents: View {
             isFinished: $model.isTitleFinished,
             isAnimated: !model.isTitleFinished)
         .background(alignment: Alignment(horizontal: .center, vertical: .earthGuide)) {
-            Image("EarthHalf")
+            Image("1024")//Was EarthHalf. 1024 is dark_matter_1024.png
+                .resizable()
+                .scaledToFill()
+                .frame(width: 1400, height: 600, alignment: .topLeading)
                 .alignmentGuide(.earthGuide) { context in
-                    context[VerticalAlignment.top] + 100
+                    context[VerticalAlignment.top] + 300//100
                 }
                 .opacity(model.isTitleFinished ? 1 : 0)
                 .accessibility(hidden: true)
