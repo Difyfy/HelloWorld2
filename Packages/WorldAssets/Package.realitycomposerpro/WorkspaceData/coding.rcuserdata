@@ -1,0 +1,35 @@
+{
+  "advancedEditorSelectedIdentifier" : "ProjectBrowser",
+  "openSceneRelativePaths" : [
+    "Earth.usda"
+  ],
+  "recentIdentifiers" : {
+
+  },
+  "sceneCameraHistory" : {
+    "6AF421D5-F098-4D35-8830-F4BB228EF79A" : [
+      {
+        "date" : 737887901.127518,
+        "title" : "Untitled",
+        "transform" : [
+          1,
+          0,
+          -0,
+          0,
+          -0,
+          0.86604816,
+          -0.49996054,
+          0,
+          0,
+          0.49996054,
+          0.86604816,
+          0,
+          5.9604634e-08,
+          56.88841,
+          98.533615,
+          1
+        ]
+      }
+    ]
+  }
+}

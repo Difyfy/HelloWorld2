@@ -5,6 +5,7 @@ Abstract:
 Controls that people can use to manipulate the globe in a volume.
 */
 
+//The code responsible for the EQUINOXES
 import SwiftUI
 
 /// Controls that people can use to manipulate the globe in a volume.

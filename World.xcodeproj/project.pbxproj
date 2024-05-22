@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172876EA2BFB0642009C7BC6 /* Mars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172876E92BFB0642009C7BC6 /* Mars.swift */; };
+		172876EC2BFB3330009C7BC6 /* MarsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172876EB2BFB3330009C7BC6 /* MarsEntity.swift */; };
+		172876EE2BFB33B3009C7BC6 /* MarsEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172876ED2BFB33B3009C7BC6 /* MarsEntity+Configuration.swift */; };
 		C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227C2988392F00732240 /* Entity+Sunlight.swift */; };
 		C200227F29883B3900732240 /* GlobeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227E29883B3900732240 /* GlobeSettings.swift */; };
 		C20197A429E3D9C900C6A20F /* SatelliteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20197A329E3D9C900C6A20F /* SatelliteEntity.swift */; };
@@ -53,8 +56,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6FD03BD460C2666C0917AC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		BA5D813EE652D2B6F9AA7B35 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		172876E92BFB0642009C7BC6 /* Mars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mars.swift; sourceTree = "<group>"; };
+		172876EB2BFB3330009C7BC6 /* MarsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsEntity.swift; sourceTree = "<group>"; };
+		172876ED2BFB33B3009C7BC6 /* MarsEntity+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarsEntity+Configuration.swift"; sourceTree = "<group>"; };
+		6FD03BD460C2666C0917AC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		BA5D813EE652D2B6F9AA7B35 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C200227C2988392F00732240 /* Entity+Sunlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Sunlight.swift"; sourceTree = "<group>"; };
 		C200227E29883B3900732240 /* GlobeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeSettings.swift; sourceTree = "<group>"; };
 		C20197A329E3D9C900C6A20F /* SatelliteEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteEntity.swift; sourceTree = "<group>"; };
@@ -133,6 +139,8 @@
 				C20197A529E4805900C6A20F /* SatelliteEntity+Configuration.swift */,
 				C200227C2988392F00732240 /* Entity+Sunlight.swift */,
 				C25EFB6F29DE7D1500D3CBB6 /* Entity+Trace.swift */,
+				172876EB2BFB3330009C7BC6 /* MarsEntity.swift */,
+				172876ED2BFB33B3009C7BC6 /* MarsEntity+Configuration.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -261,6 +269,7 @@
 				C25E9E7728EBB5430033B333 /* Earth.swift */,
 				C205CF962919CD070067444C /* Sun.swift */,
 				C205CF942919C70D0067444C /* Starfield.swift */,
+				172876E92BFB0642009C7BC6 /* Mars.swift */,
 			);
 			path = RealityViews;
 			sourceTree = "<group>";
@@ -382,12 +391,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2D21553294D210B00634A99 /* Globe.swift in Sources */,
+				172876EC2BFB3330009C7BC6 /* MarsEntity.swift in Sources */,
 				C25EFB7029DE7D1500D3CBB6 /* Entity+Trace.swift in Sources */,
 				C25AD07D29EC6C1E0012834D /* EarthEntity.swift in Sources */,
 				C200227F29883B3900732240 /* GlobeSettings.swift in Sources */,
 				C205CF952919C70D0067444C /* Starfield.swift in Sources */,
 				C2A823602A859109006F6AFF /* OrbitToggle.swift in Sources */,
 				C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */,
+				172876EE2BFB33B3009C7BC6 /* MarsEntity+Configuration.swift in Sources */,
 				C253D5772947E44200B292CA /* OrbitSettings.swift in Sources */,
 				C25617D829CCB6040064FD50 /* SolarSystemControls.swift in Sources */,
 				C205CF972919CD070067444C /* Sun.swift in Sources */,
@@ -405,6 +416,7 @@
 				C2DEDA242996FAAB00F5265B /* GlobeControls.swift in Sources */,
 				C2E652D42919E41A007934BC /* SolarSystemSettings.swift in Sources */,
 				C2F31EF829CA8F4E009742AD /* Modules.swift in Sources */,
+				172876EA2BFB0642009C7BC6 /* Mars.swift in Sources */,
 				C20197A629E4805900C6A20F /* SatelliteEntity+Configuration.swift in Sources */,
 				C25774DB29E23F8D00A75567 /* GlobeModule.swift in Sources */,
 				C25774E129E240EC00A75567 /* OrbitModule.swift in Sources */,

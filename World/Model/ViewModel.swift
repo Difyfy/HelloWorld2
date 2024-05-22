@@ -42,4 +42,11 @@ class ViewModel {
          0,
          Float(solarSunDistance * cos(solarEarth.sunAngle.radians))]
     }
+    // MARK: - Mars
+        var solarMarsDistance: Double = 12 // Example distance of Mars from the Sun .. was 1200
+        var solarMarsPosition: SIMD3<Float> {
+            [Float(solarMarsDistance * sin(solarEarth.sunAngle.radians)),
+             2.5,//WAS 0
+             Float(solarMarsDistance * cos(solarEarth.sunAngle.radians))]
+        }
 }

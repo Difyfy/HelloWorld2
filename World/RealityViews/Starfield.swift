@@ -31,7 +31,7 @@ struct Starfield: View {
                 materials: [material]
             ))
 
-            // Ensure the texture image points inward at the viewer.
+            // Ensure the TEXTURE IMAGE POINTS INWARD at the viewer.
             entity.scale *= .init(x: -1, y: 1, z: 1)
 
             content.add(entity)

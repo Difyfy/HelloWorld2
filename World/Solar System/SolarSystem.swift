@@ -21,9 +21,15 @@ struct SolarSystem: View {
             )
 
             Sun(
-                scale: 50,
+                scale: 350,//WAS 50
                 position: model.solarSunPosition
             )
+            
+            //I am ADDING the code for Mars into the Solar System
+            Mars(
+                            scale: 20, // Adjust scale as needed WAS 1
+                            position: model.solarMarsPosition // Use the new solarMarsPosition
+                        )
             
             Starfield()
         }
