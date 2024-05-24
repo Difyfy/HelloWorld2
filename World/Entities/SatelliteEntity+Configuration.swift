@@ -52,7 +52,7 @@ extension SatelliteEntity {
         static var solarMoonDefault: Configuration {
             .init(
                 name: "Moon",
-                speedRatio: 1 / 28,
+                speedRatio: 8 / 1,//Was 1 / 28
                 scale: 0.25,
                 altitude: 3.75,
                 initialRotation: .degrees(90))

@@ -42,11 +42,53 @@ class ViewModel {
          0,
          Float(solarSunDistance * cos(solarEarth.sunAngle.radians))]
     }
+    // MARK: - Mercury
+    var solarMercuryDistance: Double = 12 // Example distance of Mercury from the Sun .. was 1200
+    var solarMercuryPosition: SIMD3<Float> {
+        [Float(solarMercuryDistance * sin(solarEarth.sunAngle.radians)),
+         2.5,//WAS 0
+         Float(solarMercuryDistance * cos(solarEarth.sunAngle.radians))]
+    }
+    // MARK: - Venus
+    var solarVenusDistance: Double = 12 // Example distance of Venus from the Sun .. was 1200
+    var solarVenusPosition: SIMD3<Float> {
+        [Float(solarVenusDistance * sin(solarEarth.sunAngle.radians)),
+         2.5,//WAS 0
+         Float(solarVenusDistance * cos(solarEarth.sunAngle.radians))]
+    }
     // MARK: - Mars
-        var solarMarsDistance: Double = 12 // Example distance of Mars from the Sun .. was 1200
-        var solarMarsPosition: SIMD3<Float> {
-            [Float(solarMarsDistance * sin(solarEarth.sunAngle.radians)),
-             2.5,//WAS 0
-             Float(solarMarsDistance * cos(solarEarth.sunAngle.radians))]
-        }
+    var solarMarsDistance: Double = 12 // Example distance of Mars from the Sun .. was 1200
+    var solarMarsPosition: SIMD3<Float> {
+        [Float(solarMarsDistance * sin(solarEarth.sunAngle.radians)),
+         2.5,//WAS 0
+         Float(solarMarsDistance * cos(solarEarth.sunAngle.radians))]
+    }
+    // MARK: - Jupiter
+    var solarJupiterDistance: Double = 12 // Example distance of Jupiter from the Sun .. was 1200
+    var solarJupiterPosition: SIMD3<Float> {
+        [Float(solarJupiterDistance * sin(solarEarth.sunAngle.radians)),
+         2.5,//WAS 0
+         Float(solarJupiterDistance * cos(solarEarth.sunAngle.radians))]
+    }
+    // MARK: - Saturn
+    var solarSaturnDistance: Double = 12 // Example distance of Saturn from the Sun .. was 1200
+    var solarSaturnPosition: SIMD3<Float> {
+        [Float(solarSaturnDistance * sin(solarEarth.sunAngle.radians)),
+         2.5,//WAS 0
+         Float(solarSaturnDistance * cos(solarEarth.sunAngle.radians))]
+    }
+    // MARK: - Uranus
+    var solarUranusDistance: Double = 12 // Example distance of Uranus from the Sun .. was 1200
+    var solarUranusPosition: SIMD3<Float> {
+        [Float(solarUranusDistance * sin(solarEarth.sunAngle.radians)),
+         2.5,//WAS 0
+         Float(solarUranusDistance * cos(solarEarth.sunAngle.radians))]
+    }
+    // MARK: - Neptune
+    var solarNeptuneDistance: Double = 12 // Example distance of Neptune from the Sun .. was 1200
+    var solarNeptunePosition: SIMD3<Float> {
+        [Float(solarNeptuneDistance * sin(solarEarth.sunAngle.radians)),
+         2.5,//WAS 0
+         Float(solarNeptuneDistance * cos(solarEarth.sunAngle.radians))]
+    }
 }
