@@ -28,6 +28,7 @@
 		17945AB92C0102EF00A0C9A2 /* Neptune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AB82C0102EF00A0C9A2 /* Neptune.swift */; };
 		17945ABB2C01039200A0C9A2 /* NeptuneEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945ABA2C01039200A0C9A2 /* NeptuneEntity.swift */; };
 		17945ABD2C0103B200A0C9A2 /* NeptuneEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945ABC2C0103B200A0C9A2 /* NeptuneEntity+Configuration.swift */; };
+		17945ABF2C01701B00A0C9A2 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945ABE2C01701B00A0C9A2 /* Camera.swift */; };
 		C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227C2988392F00732240 /* Entity+Sunlight.swift */; };
 		C200227F29883B3900732240 /* GlobeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227E29883B3900732240 /* GlobeSettings.swift */; };
 		C20197A429E3D9C900C6A20F /* SatelliteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20197A329E3D9C900C6A20F /* SatelliteEntity.swift */; };
@@ -95,6 +96,7 @@
 		17945AB82C0102EF00A0C9A2 /* Neptune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neptune.swift; sourceTree = "<group>"; };
 		17945ABA2C01039200A0C9A2 /* NeptuneEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeptuneEntity.swift; sourceTree = "<group>"; };
 		17945ABC2C0103B200A0C9A2 /* NeptuneEntity+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NeptuneEntity+Configuration.swift"; sourceTree = "<group>"; };
+		17945ABE2C01701B00A0C9A2 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		6FD03BD460C2666C0917AC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		BA5D813EE652D2B6F9AA7B35 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C200227C2988392F00732240 /* Entity+Sunlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Sunlight.swift"; sourceTree = "<group>"; };
@@ -324,6 +326,7 @@
 				17945AAC2C00F8C600A0C9A2 /* Saturn.swift */,
 				17945AB22C00FDEC00A0C9A2 /* Uranus.swift */,
 				17945AB82C0102EF00A0C9A2 /* Neptune.swift */,
+				17945ABE2C01701B00A0C9A2 /* Camera.swift */,
 			);
 			path = RealityViews;
 			sourceTree = "<group>";
@@ -493,6 +496,7 @@
 				C2B0AEEF2994B39300021509 /* TraceSystem.swift in Sources */,
 				C2E652D8291B09AC007934BC /* SolarSystem.swift in Sources */,
 				17945AAB2C00DFBD00A0C9A2 /* JupiterEntity+Configuration.swift in Sources */,
+				17945ABF2C01701B00A0C9A2 /* Camera.swift in Sources */,
 				17945AB92C0102EF00A0C9A2 /* Neptune.swift in Sources */,
 				17945AA72C00DE5600A0C9A2 /* Jupiter.swift in Sources */,
 				17945AB72C00FEC500A0C9A2 /* UranusEntity+Configuration.swift in Sources */,

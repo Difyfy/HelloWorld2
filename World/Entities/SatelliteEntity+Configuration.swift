@@ -54,7 +54,7 @@ extension SatelliteEntity {
                 name: "Moon",
                 speedRatio: 8 / 1,//Was 1 / 28
                 scale: 0.25,
-                altitude: 3.75,
+                altitude: 1.75,//Was 3.75
                 initialRotation: .degrees(90))
         }
         static var disabledMoon: Configuration {

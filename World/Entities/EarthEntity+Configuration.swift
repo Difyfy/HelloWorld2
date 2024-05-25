@@ -31,7 +31,7 @@ extension EarthEntity {
         var axDescribeTilt: Bool = false
 
         var currentSpeed: Float {
-            isPaused ? 0 : speed
+            isPaused ? 0 : speed//Was 0
         }
 
         var currentSunIntensity: Float? {
@@ -53,7 +53,7 @@ extension EarthEntity {
             isCloudy: true,
             scale: 4.6,
             speed: 0.045,
-            position: [-2, 0.4, -5],
+            position: [150, 0, 0],//Was[-2, 0, -5]
             date: Date())
     }
 
