@@ -22,6 +22,12 @@ class ViewModel {
     var globeEarth: EarthEntity.Configuration = .globeEarthDefault
     var isGlobeRotating: Bool = true //false
     var globeTilt: GlobeTilt = .none
+    
+    // MARK: - Globe
+    /*var isShowingGlobe: Bool = false
+    var globeEarth: EarthEntity.Configuration = .globeEarthDefault
+    var isGlobeRotating: Bool = true //false
+    var globeTilt: GlobeTilt = .none*/
 
     // MARK: - Orbit
     var isShowingOrbit: Bool = false
@@ -91,4 +97,6 @@ class ViewModel {
          0,//WAS 0
          Float(solarNeptuneDistance * cos(solarEarth.sunAngle.radians))]
     }
+    
+    var isShowingAnotherFeature: Bool = false
 }
