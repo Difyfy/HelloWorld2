@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		172876EA2BFB0642009C7BC6 /* Mars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172876E92BFB0642009C7BC6 /* Mars.swift */; };
+		172876EA2BFB0642009C7BC6 /* MarsSolar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172876E92BFB0642009C7BC6 /* MarsSolar.swift */; };
 		172876EC2BFB3330009C7BC6 /* MarsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172876EB2BFB3330009C7BC6 /* MarsEntity.swift */; };
 		172876EE2BFB33B3009C7BC6 /* MarsEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172876ED2BFB33B3009C7BC6 /* MarsEntity+Configuration.swift */; };
 		17945A9B2C00D12A00A0C9A2 /* Mercury.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945A9A2C00D12A00A0C9A2 /* Mercury.swift */; };
@@ -75,7 +75,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		172876E92BFB0642009C7BC6 /* Mars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mars.swift; sourceTree = "<group>"; };
+		172876E92BFB0642009C7BC6 /* MarsSolar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsSolar.swift; sourceTree = "<group>"; };
 		172876EB2BFB3330009C7BC6 /* MarsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsEntity.swift; sourceTree = "<group>"; };
 		172876ED2BFB33B3009C7BC6 /* MarsEntity+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarsEntity+Configuration.swift"; sourceTree = "<group>"; };
 		17945A9A2C00D12A00A0C9A2 /* Mercury.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercury.swift; sourceTree = "<group>"; };
@@ -321,7 +321,7 @@
 				17945A9A2C00D12A00A0C9A2 /* Mercury.swift */,
 				17945AA02C00D74A00A0C9A2 /* Venus.swift */,
 				C25E9E7728EBB5430033B333 /* Earth.swift */,
-				172876E92BFB0642009C7BC6 /* Mars.swift */,
+				172876E92BFB0642009C7BC6 /* MarsSolar.swift */,
 				17945AA62C00DE5600A0C9A2 /* Jupiter.swift */,
 				17945AAC2C00F8C600A0C9A2 /* Saturn.swift */,
 				17945AB22C00FDEC00A0C9A2 /* Uranus.swift */,
@@ -483,7 +483,7 @@
 				C2E652D42919E41A007934BC /* SolarSystemSettings.swift in Sources */,
 				17945AA32C00D83800A0C9A2 /* VenusEntity.swift in Sources */,
 				C2F31EF829CA8F4E009742AD /* Modules.swift in Sources */,
-				172876EA2BFB0642009C7BC6 /* Mars.swift in Sources */,
+				172876EA2BFB0642009C7BC6 /* MarsSolar.swift in Sources */,
 				C20197A629E4805900C6A20F /* SatelliteEntity+Configuration.swift in Sources */,
 				C25774DB29E23F8D00A75567 /* GlobeModule.swift in Sources */,
 				C25774E129E240EC00A75567 /* OrbitModule.swift in Sources */,
