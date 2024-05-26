@@ -9,7 +9,7 @@
 import SwiftUI
 
 extension MarsEntity {
-    /// Configuration information for Mars entities.
+    /// Configuration information for MarsSolar entities.
     struct Configuration {
         var scale: Float = 1.0
         var rotation: simd_quatf = .init(angle: 0, axis: [0, 1, 0])

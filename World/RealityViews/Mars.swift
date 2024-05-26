@@ -10,15 +10,15 @@ import RealityKit
 import WorldAssets
 
 /// A model of Mars.
-struct Mars: View {
+struct MarsSolar: View {
     var scale: Float = 1
     var position: SIMD3<Float> = .zero
 
-    @State private var mars: MarsEntity?
+    @State private var marsSolar: MarsEntity?
 
     var body: some View {
         RealityView { content in
-            if mars == nil {
+            if marsSolar == nil {
                 // Load the Mars entity only if it hasn't been loaded yet
                 //This part of the code just CREATES the actual MarsEntity
                 let configuration = MarsEntity.Configuration(
@@ -28,7 +28,7 @@ struct Mars: View {
                 //This NEXT PART MAKES SURE IT IS ONLY LOADED ONCE!
                 let marsEntity = await MarsEntity(configuration: configuration)
                 content.add(marsEntity)
-                self.mars = marsEntity
+                self.marsSolar = marsEntity
             }
         }
         .onAppear {
@@ -37,14 +37,14 @@ struct Mars: View {
     }
 
     private func configure() {
-        guard let mars = mars else { return }
+        guard let mars = marsSolar else { return }
         mars.update(configuration: MarsEntity.Configuration(scale: scale, position: position), animateUpdates: false)
         print("Mars configured with position: \(position) and scale: \(scale)")
     }
 }
 
 #Preview {
-    Mars(scale: 1)
+    MarsSolar(scale: 1)
 }
 
 

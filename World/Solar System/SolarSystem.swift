@@ -35,7 +35,7 @@ struct SolarSystem: View {
             )
 
             //I am ADDING the code for Mars into the Solar System
-            Mars(scale: 45, position: [115, 0, -10]
+            MarsSolar(scale: 45, position: [115, 0, -10]
                 /*scale: 30, // Adjust scale as needed WAS 1
                 position: model.solarMarsPosition // Use the new solarMarsPosition*/
             )

@@ -16,7 +16,7 @@ class MarsEntity: Entity {
     // MARK: - Sub-entities
 
     /// The model that draws Mars's surface features.
-    private var mars: Entity = Entity()
+    private var marsSolar: Entity = Entity()
 
     // MARK: - Initializers
 
@@ -33,11 +33,11 @@ class MarsEntity: Entity {
         super.init()
 
         // Load the Mars model.
-        guard let mars = await WorldAssets.entity(named: "Mars") else { return }
-        self.mars = mars
+        guard let marsSolar = await WorldAssets.entity(named: "MarsSolar") else { return }
+        self.marsSolar = marsSolar
 
         // Attach the Mars model to the entity.
-        self.addChild(mars)
+        self.addChild(marsSolar)
 
         // Configure everything for the first time.
         update(configuration: configuration, animateUpdates: false)
@@ -53,14 +53,14 @@ class MarsEntity: Entity {
     ///     configuration values should be animated.
     func update(configuration: Configuration, animateUpdates: Bool) {
         // Set the rotation of Mars.
-        mars.orientation = configuration.rotation
+        marsSolar.orientation = configuration.rotation
 
         // Set the speed of Mars's rotation on its axis.
-        if var rotation: RotationComponent = mars.components[RotationComponent.self] {
+        if var rotation: RotationComponent = marsSolar.components[RotationComponent.self] {
             rotation.speed = configuration.currentSpeed
-            mars.components[RotationComponent.self] = rotation
+            marsSolar.components[RotationComponent.self] = rotation
         } else {
-            mars.components.set(RotationComponent(speed: configuration.currentSpeed))
+            marsSolar.components.set(RotationComponent(speed: configuration.currentSpeed))
         }
 
         // Set the sunlight, if corresponding controls have changed.
