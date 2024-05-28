@@ -59,7 +59,7 @@ struct GlobeToggle: View {
             Toggle("View Mars", isOn: $model.isShowingMars)
                 .onChange(of: model.isShowingMars) { _, isShowing in
                     if isShowing {
-                        openWindow(id: "GlobeMars")
+                        openWindow(id: "GlobeMars")//This 'id' RELATES to defining the window in "WorldApp" I get it!
                     } else {
                         dismissWindow(id: "GlobeMars")
                     }

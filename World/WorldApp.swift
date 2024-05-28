@@ -37,7 +37,7 @@ struct WorldApp: App {
         //EXPANDING GLOBE WINDOWGROUP TO ACCEPT MORE PLANETS
         // A volume that displays Mars.
         WindowGroup(id: "GlobeMars") {
-            Mars()//WAS Mars
+            Mars()//"Mars" is right for CONTROLS. "MarsSolar" has got the 3D rendering right! FIX IT!!
                 .environment(model)
         }
         .windowStyle(.volumetric)
