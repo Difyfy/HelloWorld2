@@ -20,3 +20,27 @@ struct GlobeModule: View {
     GlobeModule()
         .padding()
 }
+
+
+
+
+
+
+/*==========================THIS IS THE ORIGINAL FILE===============================*/
+/*
+ import SwiftUI
+
+ /// The module detail content that's specific to the globe module.
+ struct GlobeModule: View {
+     var body: some View {
+         Image("GlobeHero")
+             .resizable()
+             .scaledToFit()
+     }
+ }
+
+ #Preview {
+     GlobeModule()
+         .padding()
+ }
+ */

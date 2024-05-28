@@ -44,7 +44,7 @@ struct MarsSolar: View {
 }
 
 #Preview {
-    MarsSolar(scale: 1)
+    MarsSolar()
 }
 
 

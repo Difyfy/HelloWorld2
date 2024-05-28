@@ -7,34 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		172876EA2BFB0642009C7BC6 /* MarsSolar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172876E92BFB0642009C7BC6 /* MarsSolar.swift */; };
+		172876EA2BFB0642009C7BC6 /* RealityViewsMars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172876E92BFB0642009C7BC6 /* RealityViewsMars.swift */; };
 		172876EC2BFB3330009C7BC6 /* MarsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172876EB2BFB3330009C7BC6 /* MarsEntity.swift */; };
 		172876EE2BFB33B3009C7BC6 /* MarsEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172876ED2BFB33B3009C7BC6 /* MarsEntity+Configuration.swift */; };
-		17945A9B2C00D12A00A0C9A2 /* Mercury.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945A9A2C00D12A00A0C9A2 /* Mercury.swift */; };
+		17945A9B2C00D12A00A0C9A2 /* RealityViewsMercury.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945A9A2C00D12A00A0C9A2 /* RealityViewsMercury.swift */; };
 		17945A9D2C00D26600A0C9A2 /* MercuryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945A9C2C00D26600A0C9A2 /* MercuryEntity.swift */; };
 		17945A9F2C00D27F00A0C9A2 /* MercuryEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945A9E2C00D27F00A0C9A2 /* MercuryEntity+Configuration.swift */; };
-		17945AA12C00D74A00A0C9A2 /* Venus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AA02C00D74A00A0C9A2 /* Venus.swift */; };
+		17945AA12C00D74A00A0C9A2 /* RealityViewsVenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AA02C00D74A00A0C9A2 /* RealityViewsVenus.swift */; };
 		17945AA32C00D83800A0C9A2 /* VenusEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AA22C00D83800A0C9A2 /* VenusEntity.swift */; };
 		17945AA52C00D85100A0C9A2 /* VenusEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AA42C00D85100A0C9A2 /* VenusEntity+Configuration.swift */; };
-		17945AA72C00DE5600A0C9A2 /* Jupiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AA62C00DE5600A0C9A2 /* Jupiter.swift */; };
+		17945AA72C00DE5600A0C9A2 /* RealityViewsJupiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AA62C00DE5600A0C9A2 /* RealityViewsJupiter.swift */; };
 		17945AA92C00DFA600A0C9A2 /* JupiterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AA82C00DFA600A0C9A2 /* JupiterEntity.swift */; };
 		17945AAB2C00DFBD00A0C9A2 /* JupiterEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AAA2C00DFBD00A0C9A2 /* JupiterEntity+Configuration.swift */; };
-		17945AAD2C00F8C600A0C9A2 /* Saturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AAC2C00F8C600A0C9A2 /* Saturn.swift */; };
+		17945AAD2C00F8C600A0C9A2 /* RealityViewsSaturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AAC2C00F8C600A0C9A2 /* RealityViewsSaturn.swift */; };
 		17945AAF2C00F9A200A0C9A2 /* SaturnEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AAE2C00F9A200A0C9A2 /* SaturnEntity.swift */; };
 		17945AB12C00F9D400A0C9A2 /* SaturnEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AB02C00F9D400A0C9A2 /* SaturnEntity+Configuration.swift */; };
-		17945AB32C00FDEC00A0C9A2 /* Uranus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AB22C00FDEC00A0C9A2 /* Uranus.swift */; };
+		17945AB32C00FDEC00A0C9A2 /* RealityViewsUranus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AB22C00FDEC00A0C9A2 /* RealityViewsUranus.swift */; };
 		17945AB52C00FEAD00A0C9A2 /* UranusEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AB42C00FEAD00A0C9A2 /* UranusEntity.swift */; };
 		17945AB72C00FEC500A0C9A2 /* UranusEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AB62C00FEC500A0C9A2 /* UranusEntity+Configuration.swift */; };
-		17945AB92C0102EF00A0C9A2 /* Neptune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AB82C0102EF00A0C9A2 /* Neptune.swift */; };
+		17945AB92C0102EF00A0C9A2 /* RealityViewsNeptune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AB82C0102EF00A0C9A2 /* RealityViewsNeptune.swift */; };
 		17945ABB2C01039200A0C9A2 /* NeptuneEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945ABA2C01039200A0C9A2 /* NeptuneEntity.swift */; };
 		17945ABD2C0103B200A0C9A2 /* NeptuneEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945ABC2C0103B200A0C9A2 /* NeptuneEntity+Configuration.swift */; };
 		17945ABF2C01701B00A0C9A2 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945ABE2C01701B00A0C9A2 /* Camera.swift */; };
+		17945AC72C03843A00A0C9A2 /* GlobeMars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AC62C03843A00A0C9A2 /* GlobeMars.swift */; };
+		17945AC92C03849100A0C9A2 /* GlobeMarsControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AC82C03849100A0C9A2 /* GlobeMarsControls.swift */; };
+		17945ACB2C0384AD00A0C9A2 /* GlobeMarsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945ACA2C0384AD00A0C9A2 /* GlobeMarsModule.swift */; };
+		17945ACD2C0393FF00A0C9A2 /* AlignmentGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945ACC2C0393FF00A0C9A2 /* AlignmentGuides.swift */; };
 		C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227C2988392F00732240 /* Entity+Sunlight.swift */; };
 		C200227F29883B3900732240 /* GlobeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227E29883B3900732240 /* GlobeSettings.swift */; };
 		C20197A429E3D9C900C6A20F /* SatelliteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20197A329E3D9C900C6A20F /* SatelliteEntity.swift */; };
 		C20197A629E4805900C6A20F /* SatelliteEntity+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20197A529E4805900C6A20F /* SatelliteEntity+Configuration.swift */; };
 		C205CF952919C70D0067444C /* Starfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = C205CF942919C70D0067444C /* Starfield.swift */; };
-		C205CF972919CD070067444C /* Sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = C205CF962919CD070067444C /* Sun.swift */; };
+		C205CF972919CD070067444C /* RealityViewsSun.swift in Sources */ = {isa = PBXBuildFile; fileRef = C205CF962919CD070067444C /* RealityViewsSun.swift */; };
 		C20A898F2A37D93C004E8608 /* Sunlight.skybox in Resources */ = {isa = PBXBuildFile; fileRef = C20A898E2A37D93C004E8608 /* Sunlight.skybox */; };
 		C22D1AF228EB403400CE0F8F /* WorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22D1AF128EB403400CE0F8F /* WorldApp.swift */; };
 		C22D1AF628EB403600CE0F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22D1AF528EB403600CE0F8F /* Assets.xcassets */; };
@@ -50,7 +54,7 @@
 		C258918F2975EB7E0071BD5F /* SliderGridRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258918E2975EB7E0071BD5F /* SliderGridRow.swift */; };
 		C2589191297625C90071BD5F /* PlacementGesturesModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2589190297625C90071BD5F /* PlacementGesturesModifier.swift */; };
 		C25AD07D29EC6C1E0012834D /* EarthEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25AD07C29EC6C1E0012834D /* EarthEntity.swift */; };
-		C25E9E7828EBB5430033B333 /* Earth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25E9E7728EBB5430033B333 /* Earth.swift */; };
+		C25E9E7828EBB5430033B333 /* RealityViewsEarth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25E9E7728EBB5430033B333 /* RealityViewsEarth.swift */; };
 		C25EFB7029DE7D1500D3CBB6 /* Entity+Trace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25EFB6F29DE7D1500D3CBB6 /* Entity+Trace.swift */; };
 		C2A0F2B029D115150009D46C /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A0F2AF29D115150009D46C /* SettingsButton.swift */; };
 		C2A8235E2A858A1C006F6AFF /* SolarSystemToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A8235D2A858A1C006F6AFF /* SolarSystemToggle.swift */; };
@@ -75,28 +79,32 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		172876E92BFB0642009C7BC6 /* MarsSolar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsSolar.swift; sourceTree = "<group>"; };
+		172876E92BFB0642009C7BC6 /* RealityViewsMars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityViewsMars.swift; sourceTree = "<group>"; };
 		172876EB2BFB3330009C7BC6 /* MarsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsEntity.swift; sourceTree = "<group>"; };
 		172876ED2BFB33B3009C7BC6 /* MarsEntity+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MarsEntity+Configuration.swift"; sourceTree = "<group>"; };
-		17945A9A2C00D12A00A0C9A2 /* Mercury.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercury.swift; sourceTree = "<group>"; };
+		17945A9A2C00D12A00A0C9A2 /* RealityViewsMercury.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityViewsMercury.swift; sourceTree = "<group>"; };
 		17945A9C2C00D26600A0C9A2 /* MercuryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercuryEntity.swift; sourceTree = "<group>"; };
 		17945A9E2C00D27F00A0C9A2 /* MercuryEntity+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MercuryEntity+Configuration.swift"; sourceTree = "<group>"; };
-		17945AA02C00D74A00A0C9A2 /* Venus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venus.swift; sourceTree = "<group>"; };
+		17945AA02C00D74A00A0C9A2 /* RealityViewsVenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityViewsVenus.swift; sourceTree = "<group>"; };
 		17945AA22C00D83800A0C9A2 /* VenusEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenusEntity.swift; sourceTree = "<group>"; };
 		17945AA42C00D85100A0C9A2 /* VenusEntity+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VenusEntity+Configuration.swift"; sourceTree = "<group>"; };
-		17945AA62C00DE5600A0C9A2 /* Jupiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jupiter.swift; sourceTree = "<group>"; };
+		17945AA62C00DE5600A0C9A2 /* RealityViewsJupiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityViewsJupiter.swift; sourceTree = "<group>"; };
 		17945AA82C00DFA600A0C9A2 /* JupiterEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JupiterEntity.swift; sourceTree = "<group>"; };
 		17945AAA2C00DFBD00A0C9A2 /* JupiterEntity+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JupiterEntity+Configuration.swift"; sourceTree = "<group>"; };
-		17945AAC2C00F8C600A0C9A2 /* Saturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saturn.swift; sourceTree = "<group>"; };
+		17945AAC2C00F8C600A0C9A2 /* RealityViewsSaturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityViewsSaturn.swift; sourceTree = "<group>"; };
 		17945AAE2C00F9A200A0C9A2 /* SaturnEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturnEntity.swift; sourceTree = "<group>"; };
 		17945AB02C00F9D400A0C9A2 /* SaturnEntity+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SaturnEntity+Configuration.swift"; sourceTree = "<group>"; };
-		17945AB22C00FDEC00A0C9A2 /* Uranus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uranus.swift; sourceTree = "<group>"; };
+		17945AB22C00FDEC00A0C9A2 /* RealityViewsUranus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityViewsUranus.swift; sourceTree = "<group>"; };
 		17945AB42C00FEAD00A0C9A2 /* UranusEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UranusEntity.swift; sourceTree = "<group>"; };
 		17945AB62C00FEC500A0C9A2 /* UranusEntity+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UranusEntity+Configuration.swift"; sourceTree = "<group>"; };
-		17945AB82C0102EF00A0C9A2 /* Neptune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neptune.swift; sourceTree = "<group>"; };
+		17945AB82C0102EF00A0C9A2 /* RealityViewsNeptune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityViewsNeptune.swift; sourceTree = "<group>"; };
 		17945ABA2C01039200A0C9A2 /* NeptuneEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeptuneEntity.swift; sourceTree = "<group>"; };
 		17945ABC2C0103B200A0C9A2 /* NeptuneEntity+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NeptuneEntity+Configuration.swift"; sourceTree = "<group>"; };
 		17945ABE2C01701B00A0C9A2 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		17945AC62C03843A00A0C9A2 /* GlobeMars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeMars.swift; sourceTree = "<group>"; };
+		17945AC82C03849100A0C9A2 /* GlobeMarsControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeMarsControls.swift; sourceTree = "<group>"; };
+		17945ACA2C0384AD00A0C9A2 /* GlobeMarsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeMarsModule.swift; sourceTree = "<group>"; };
+		17945ACC2C0393FF00A0C9A2 /* AlignmentGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuides.swift; sourceTree = "<group>"; };
 		6FD03BD460C2666C0917AC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		BA5D813EE652D2B6F9AA7B35 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C200227C2988392F00732240 /* Entity+Sunlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Sunlight.swift"; sourceTree = "<group>"; };
@@ -104,7 +112,7 @@
 		C20197A329E3D9C900C6A20F /* SatelliteEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteEntity.swift; sourceTree = "<group>"; };
 		C20197A529E4805900C6A20F /* SatelliteEntity+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SatelliteEntity+Configuration.swift"; sourceTree = "<group>"; };
 		C205CF942919C70D0067444C /* Starfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starfield.swift; sourceTree = "<group>"; };
-		C205CF962919CD070067444C /* Sun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun.swift; sourceTree = "<group>"; };
+		C205CF962919CD070067444C /* RealityViewsSun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityViewsSun.swift; sourceTree = "<group>"; };
 		C20A898E2A37D93C004E8608 /* Sunlight.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = Sunlight.skybox; sourceTree = "<group>"; };
 		C22D1AEE28EB403400CE0F8F /* World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = World.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22D1AF128EB403400CE0F8F /* WorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldApp.swift; sourceTree = "<group>"; };
@@ -123,7 +131,7 @@
 		C2589190297625C90071BD5F /* PlacementGesturesModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementGesturesModifier.swift; sourceTree = "<group>"; };
 		C25A1C9C28EB495E00B0E173 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C25AD07C29EC6C1E0012834D /* EarthEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthEntity.swift; sourceTree = "<group>"; };
-		C25E9E7728EBB5430033B333 /* Earth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earth.swift; sourceTree = "<group>"; };
+		C25E9E7728EBB5430033B333 /* RealityViewsEarth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityViewsEarth.swift; sourceTree = "<group>"; };
 		C25EFB6F29DE7D1500D3CBB6 /* Entity+Trace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Trace.swift"; sourceTree = "<group>"; };
 		C2A0F2AF29D115150009D46C /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
 		C2A8235D2A858A1C006F6AFF /* SolarSystemToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemToggle.swift; sourceTree = "<group>"; };
@@ -260,6 +268,10 @@
 				C2DEDA232996FAAB00F5265B /* GlobeControls.swift */,
 				C25774DA29E23F8D00A75567 /* GlobeModule.swift */,
 				C2A823612A8591FC006F6AFF /* GlobeToggle.swift */,
+				17945AC62C03843A00A0C9A2 /* GlobeMars.swift */,
+				17945AC82C03849100A0C9A2 /* GlobeMarsControls.swift */,
+				17945ACA2C0384AD00A0C9A2 /* GlobeMarsModule.swift */,
+				17945ACC2C0393FF00A0C9A2 /* AlignmentGuides.swift */,
 			);
 			path = Globe;
 			sourceTree = "<group>";
@@ -317,15 +329,15 @@
 			isa = PBXGroup;
 			children = (
 				C205CF942919C70D0067444C /* Starfield.swift */,
-				C205CF962919CD070067444C /* Sun.swift */,
-				17945A9A2C00D12A00A0C9A2 /* Mercury.swift */,
-				17945AA02C00D74A00A0C9A2 /* Venus.swift */,
-				C25E9E7728EBB5430033B333 /* Earth.swift */,
-				172876E92BFB0642009C7BC6 /* MarsSolar.swift */,
-				17945AA62C00DE5600A0C9A2 /* Jupiter.swift */,
-				17945AAC2C00F8C600A0C9A2 /* Saturn.swift */,
-				17945AB22C00FDEC00A0C9A2 /* Uranus.swift */,
-				17945AB82C0102EF00A0C9A2 /* Neptune.swift */,
+				C205CF962919CD070067444C /* RealityViewsSun.swift */,
+				17945A9A2C00D12A00A0C9A2 /* RealityViewsMercury.swift */,
+				17945AA02C00D74A00A0C9A2 /* RealityViewsVenus.swift */,
+				C25E9E7728EBB5430033B333 /* RealityViewsEarth.swift */,
+				172876E92BFB0642009C7BC6 /* RealityViewsMars.swift */,
+				17945AA62C00DE5600A0C9A2 /* RealityViewsJupiter.swift */,
+				17945AAC2C00F8C600A0C9A2 /* RealityViewsSaturn.swift */,
+				17945AB22C00FDEC00A0C9A2 /* RealityViewsUranus.swift */,
+				17945AB82C0102EF00A0C9A2 /* RealityViewsNeptune.swift */,
 				17945ABE2C01701B00A0C9A2 /* Camera.swift */,
 			);
 			path = RealityViews;
@@ -451,39 +463,41 @@
 				172876EC2BFB3330009C7BC6 /* MarsEntity.swift in Sources */,
 				C25EFB7029DE7D1500D3CBB6 /* Entity+Trace.swift in Sources */,
 				C25AD07D29EC6C1E0012834D /* EarthEntity.swift in Sources */,
+				17945AC92C03849100A0C9A2 /* GlobeMarsControls.swift in Sources */,
 				C200227F29883B3900732240 /* GlobeSettings.swift in Sources */,
 				C205CF952919C70D0067444C /* Starfield.swift in Sources */,
+				17945AC72C03843A00A0C9A2 /* GlobeMars.swift in Sources */,
 				C2A823602A859109006F6AFF /* OrbitToggle.swift in Sources */,
 				C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */,
 				172876EE2BFB33B3009C7BC6 /* MarsEntity+Configuration.swift in Sources */,
 				C253D5772947E44200B292CA /* OrbitSettings.swift in Sources */,
 				C25617D829CCB6040064FD50 /* SolarSystemControls.swift in Sources */,
 				17945AA52C00D85100A0C9A2 /* VenusEntity+Configuration.swift in Sources */,
-				C205CF972919CD070067444C /* Sun.swift in Sources */,
+				C205CF972919CD070067444C /* RealityViewsSun.swift in Sources */,
 				C2F2CA362A391D6B00E1C2A2 /* SatelliteSettings.swift in Sources */,
 				C2C1C8DB29ECA8CC00DA5D97 /* EarthEntity+Configuration.swift in Sources */,
 				C2A8235E2A858A1C006F6AFF /* SolarSystemToggle.swift in Sources */,
 				C2589191297625C90071BD5F /* PlacementGesturesModifier.swift in Sources */,
 				17945ABD2C0103B200A0C9A2 /* NeptuneEntity+Configuration.swift in Sources */,
 				17945A9F2C00D27F00A0C9A2 /* MercuryEntity+Configuration.swift in Sources */,
-				17945A9B2C00D12A00A0C9A2 /* Mercury.swift in Sources */,
+				17945A9B2C00D12A00A0C9A2 /* RealityViewsMercury.swift in Sources */,
 				C2A823622A8591FC006F6AFF /* GlobeToggle.swift in Sources */,
-				17945AB32C00FDEC00A0C9A2 /* Uranus.swift in Sources */,
+				17945AB32C00FDEC00A0C9A2 /* RealityViewsUranus.swift in Sources */,
 				C25774DE29E2401F00A75567 /* SolarSystemModule.swift in Sources */,
-				C25E9E7828EBB5430033B333 /* Earth.swift in Sources */,
+				C25E9E7828EBB5430033B333 /* RealityViewsEarth.swift in Sources */,
 				C25774D829E2361000A75567 /* TypeTextModifier.swift in Sources */,
 				C2F31EFE29CC02D7009742AD /* Module.swift in Sources */,
 				C2F2CA342A391D4200E1C2A2 /* EarthSettings.swift in Sources */,
 				17945ABB2C01039200A0C9A2 /* NeptuneEntity.swift in Sources */,
 				C2F31EFC29CC01BC009742AD /* TableOfContents.swift in Sources */,
 				17945AB12C00F9D400A0C9A2 /* SaturnEntity+Configuration.swift in Sources */,
-				17945AA12C00D74A00A0C9A2 /* Venus.swift in Sources */,
+				17945AA12C00D74A00A0C9A2 /* RealityViewsVenus.swift in Sources */,
 				C2DEDA242996FAAB00F5265B /* GlobeControls.swift in Sources */,
-				17945AAD2C00F8C600A0C9A2 /* Saturn.swift in Sources */,
+				17945AAD2C00F8C600A0C9A2 /* RealityViewsSaturn.swift in Sources */,
 				C2E652D42919E41A007934BC /* SolarSystemSettings.swift in Sources */,
 				17945AA32C00D83800A0C9A2 /* VenusEntity.swift in Sources */,
 				C2F31EF829CA8F4E009742AD /* Modules.swift in Sources */,
-				172876EA2BFB0642009C7BC6 /* MarsSolar.swift in Sources */,
+				172876EA2BFB0642009C7BC6 /* RealityViewsMars.swift in Sources */,
 				C20197A629E4805900C6A20F /* SatelliteEntity+Configuration.swift in Sources */,
 				C25774DB29E23F8D00A75567 /* GlobeModule.swift in Sources */,
 				C25774E129E240EC00A75567 /* OrbitModule.swift in Sources */,
@@ -497,11 +511,13 @@
 				C2E652D8291B09AC007934BC /* SolarSystem.swift in Sources */,
 				17945AAB2C00DFBD00A0C9A2 /* JupiterEntity+Configuration.swift in Sources */,
 				17945ABF2C01701B00A0C9A2 /* Camera.swift in Sources */,
-				17945AB92C0102EF00A0C9A2 /* Neptune.swift in Sources */,
-				17945AA72C00DE5600A0C9A2 /* Jupiter.swift in Sources */,
+				17945ACB2C0384AD00A0C9A2 /* GlobeMarsModule.swift in Sources */,
+				17945AB92C0102EF00A0C9A2 /* RealityViewsNeptune.swift in Sources */,
+				17945AA72C00DE5600A0C9A2 /* RealityViewsJupiter.swift in Sources */,
 				17945AB72C00FEC500A0C9A2 /* UranusEntity+Configuration.swift in Sources */,
 				17945AB52C00FEAD00A0C9A2 /* UranusEntity.swift in Sources */,
 				17945A9D2C00D26600A0C9A2 /* MercuryEntity.swift in Sources */,
+				17945ACD2C0393FF00A0C9A2 /* AlignmentGuides.swift in Sources */,
 				17945AAF2C00F9A200A0C9A2 /* SaturnEntity.swift in Sources */,
 				C258918F2975EB7E0071BD5F /* SliderGridRow.swift in Sources */,
 				C2CD36432A3A7682003811D3 /* ModuleCard.swift in Sources */,

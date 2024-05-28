@@ -41,37 +41,75 @@ struct GlobeToggle: View {
     @Environment(ViewModel.self) private var model
     @Environment(\.openWindow) private var openWindow
     @Environment(\.dismissWindow) private var dismissWindow
-
+    
     var body: some View {
         @Bindable var model = model
-
+        
         HStack {
             Toggle(Module.globe.callToAction, isOn: $model.isShowingGlobe)
                 .onChange(of: model.isShowingGlobe) { _, isShowing in
                     if isShowing {
-                        openWindow(id: Module.globe.name)
+                        openWindow(id: "GlobeEarth")//WAS Module.globe.name
                     } else {
-                        dismissWindow(id: Module.globe.name)
+                        dismissWindow(id: "GlobeEarth")
                     }
                 }
                 .toggleStyle(.button)
             
-            Toggle("Another Action", isOn: $model.isShowingAnotherFeature)
-                .onChange(of: model.isShowingAnotherFeature) { _, isShowing in
-                    // Define what happens when the second toggle is switched
+            Toggle("View Mars", isOn: $model.isShowingMars)
+                .onChange(of: model.isShowingMars) { _, isShowing in
                     if isShowing {
-                        // Perform some action
+                        openWindow(id: "GlobeMars")
                     } else {
-                        // Perform some other action
+                        dismissWindow(id: "GlobeMars")
                     }
                 }
                 .toggleStyle(.button)
+            }
         }
-    }
 }
 
+/*
 #Preview {
     GlobeToggle()
         .environment(ViewModel())
-}
+}*/
 
+
+
+
+
+
+
+
+
+/*==================THIS IS THE ORIGINAL FILE===============================*/
+/*
+ import SwiftUI
+
+ /// A toggle that activates or deactivates the globe volume.
+ struct GlobeToggle: View {
+     @Environment(ViewModel.self) private var model
+     @Environment(\.openWindow) private var openWindow
+     @Environment(\.dismissWindow) private var dismissWindow
+
+     var body: some View {
+         @Bindable var model = model
+
+         Toggle(Module.globe.callToAction, isOn: $model.isShowingGlobe)
+             .onChange(of: model.isShowingGlobe) { _, isShowing in
+                 if isShowing {
+                     openWindow(id: Module.globe.name)
+                 } else {
+                     dismissWindow(id: Module.globe.name)
+                 }
+             }
+             .toggleStyle(.button)
+     }
+ }
+
+ #Preview {
+     GlobeToggle()
+         .environment(ViewModel())
+ }
+ */

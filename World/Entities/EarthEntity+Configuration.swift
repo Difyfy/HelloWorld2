@@ -13,7 +13,7 @@ extension EarthEntity {
         var isCloudy: Bool = false
 
         var scale: Float = 0.6
-        var rotation: simd_quatf = .init(angle: 0, axis: [0, 1, 0])
+        var rotation: simd_quatf = .init(angle: 0, axis: [0, 100, 0])//WAS [0, 1, 0]
         var speed: Float = 0
         var isPaused: Bool = false
         var position: SIMD3<Float> = .zero

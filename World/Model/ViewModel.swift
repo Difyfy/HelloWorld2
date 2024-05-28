@@ -9,7 +9,7 @@ import SwiftUI
 
 /// The data that the app uses to configure its views.
 @Observable
-class ViewModel {
+class ViewModel: Observable {
     
     // MARK: - Navigation
     var navigationPath: [Module] = []
@@ -23,11 +23,16 @@ class ViewModel {
     var isGlobeRotating: Bool = true //false
     var globeTilt: GlobeTilt = .none
     
-    // MARK: - Globe
-    /*var isShowingGlobe: Bool = false
-    var globeEarth: EarthEntity.Configuration = .globeEarthDefault
-    var isGlobeRotating: Bool = true //false
-    var globeTilt: GlobeTilt = .none*/
+    // MARK: - MarsSolar
+    var solarMarsDistance: Double = 84 // Example distance of Mars from the Sun .. was 1200
+    var solarMarsPosition: SIMD3<Float> {
+        [Float(solarMarsDistance * sin(solarEarth.sunAngle.radians)),
+         0,//WAS 0
+         Float(solarMarsDistance * cos(solarEarth.sunAngle.radians))]
+    }
+    var isShowingMars: Bool = false
+    var marsConfiguration: MarsEntity.Configuration = .defaultConfiguration
+    var isMarsRotating: Bool = true
 
     // MARK: - Orbit
     var isShowingOrbit: Bool = false
@@ -62,13 +67,7 @@ class ViewModel {
          0,//WAS 0
          Float(solarVenusDistance * cos(solarEarth.sunAngle.radians))]
     }
-    // MARK: - Mars
-    var solarMarsDistance: Double = 84 // Example distance of Mars from the Sun .. was 1200
-    var solarMarsPosition: SIMD3<Float> {
-        [Float(solarMarsDistance * sin(solarEarth.sunAngle.radians)),
-         0,//WAS 0
-         Float(solarMarsDistance * cos(solarEarth.sunAngle.radians))]
-    }
+    
     // MARK: - Jupiter
     var solarJupiterDistance: Double = 120 // Example distance of Jupiter from the Sun .. was 1200
     var solarJupiterPosition: SIMD3<Float> {
@@ -97,6 +96,56 @@ class ViewModel {
          0,//WAS 0
          Float(solarNeptuneDistance * cos(solarEarth.sunAngle.radians))]
     }
-    
-    var isShowingAnotherFeature: Bool = false
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======================THIS IS THE ORIGINAL FILE=============================*/
+/*
+ import SwiftUI
+
+ /// The data that the app uses to configure its views.
+ @Observable
+ class ViewModel {
+     
+     // MARK: - Navigation
+     var navigationPath: [Module] = []
+     var titleText: String = ""
+     var isTitleFinished: Bool = false
+     var finalTitle: String = "Hello World"
+
+     // MARK: - Globe
+     var isShowingGlobe: Bool = false
+     var globeEarth: EarthEntity.Configuration = .globeEarthDefault
+     var isGlobeRotating: Bool = false
+     var globeTilt: GlobeTilt = .none
+
+     // MARK: - Orbit
+     var isShowingOrbit: Bool = false
+     var orbitEarth: EarthEntity.Configuration = .orbitEarthDefault
+     var orbitSatellite: SatelliteEntity.Configuration = .orbitSatelliteDefault
+     var orbitMoon: SatelliteEntity.Configuration = .orbitMoonDefault
+
+     // MARK: - Solar System
+     var isShowingSolar: Bool = false
+     var solarEarth: EarthEntity.Configuration = .solarEarthDefault
+     var solarSatellite: SatelliteEntity.Configuration = .solarTelescopeDefault
+     var solarMoon: SatelliteEntity.Configuration = .solarMoonDefault
+
+     var solarSunDistance: Double = 700
+     var solarSunPosition: SIMD3<Float> {
+         [Float(solarSunDistance * sin(solarEarth.sunAngle.radians)),
+          0,
+          Float(solarSunDistance * cos(solarEarth.sunAngle.radians))]
+     }
+ }
+ */

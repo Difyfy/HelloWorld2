@@ -30,7 +30,7 @@ extension MarsEntity {
         var currentSunIntensity: Float? {
             showSun ? sunIntensity : nil
         }
-
+        
         static var defaultConfiguration: Configuration = .init(
             scale: 1.0,
             speed: 0.05,
