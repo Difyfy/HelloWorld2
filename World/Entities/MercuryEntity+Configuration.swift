@@ -18,7 +18,7 @@ extension MercuryEntity {
         var position: SIMD3<Float> = .zero
 
         var showSun: Bool = true
-        var sunIntensity: Float = 20//Was 10
+        var sunIntensity: Float = 13//Was 10
         var sunAngle: Angle = .degrees(280)//Was 0
 
         var axActions: [LocalizedStringResource] = []

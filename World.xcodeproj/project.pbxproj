@@ -33,6 +33,27 @@
 		17945AC92C03849100A0C9A2 /* GlobeMarsControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AC82C03849100A0C9A2 /* GlobeMarsControls.swift */; };
 		17945ACB2C0384AD00A0C9A2 /* GlobeMarsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945ACA2C0384AD00A0C9A2 /* GlobeMarsModule.swift */; };
 		17945ACD2C0393FF00A0C9A2 /* AlignmentGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945ACC2C0393FF00A0C9A2 /* AlignmentGuides.swift */; };
+		17945ACF2C065D3B00A0C9A2 /* GlobeMercury.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945ACE2C065D3B00A0C9A2 /* GlobeMercury.swift */; };
+		17945AD12C065D4900A0C9A2 /* GlobeMercuryControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AD02C065D4900A0C9A2 /* GlobeMercuryControls.swift */; };
+		17945AD32C065D5C00A0C9A2 /* GlobeMercuryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AD22C065D5C00A0C9A2 /* GlobeMercuryModule.swift */; };
+		17945AD52C065DB700A0C9A2 /* GlobeVenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AD42C065DB700A0C9A2 /* GlobeVenus.swift */; };
+		17945AD72C065DC400A0C9A2 /* GlobeVenusControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AD62C065DC400A0C9A2 /* GlobeVenusControls.swift */; };
+		17945AD92C065DE000A0C9A2 /* GlobeVenusModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AD82C065DE000A0C9A2 /* GlobeVenusModule.swift */; };
+		17945ADB2C065E0100A0C9A2 /* GlobeJupiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945ADA2C065E0100A0C9A2 /* GlobeJupiter.swift */; };
+		17945ADD2C065E1B00A0C9A2 /* GlobeJupiterControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945ADC2C065E1B00A0C9A2 /* GlobeJupiterControls.swift */; };
+		17945ADF2C065E2900A0C9A2 /* GlobeJupiterModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945ADE2C065E2900A0C9A2 /* GlobeJupiterModule.swift */; };
+		17945AE12C065E4900A0C9A2 /* GlobeUranus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AE02C065E4900A0C9A2 /* GlobeUranus.swift */; };
+		17945AE32C065E5400A0C9A2 /* GlobeUranusControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AE22C065E5400A0C9A2 /* GlobeUranusControls.swift */; };
+		17945AE52C065E7E00A0C9A2 /* GlobeUranusModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AE42C065E7E00A0C9A2 /* GlobeUranusModule.swift */; };
+		17945AE72C065E9000A0C9A2 /* GlobeSaturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AE62C065E9000A0C9A2 /* GlobeSaturn.swift */; };
+		17945AE92C065EA200A0C9A2 /* GlobeSaturnControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AE82C065EA200A0C9A2 /* GlobeSaturnControls.swift */; };
+		17945AEB2C065EBB00A0C9A2 /* GlobeSaturnModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AEA2C065EBB00A0C9A2 /* GlobeSaturnModule.swift */; };
+		17945AED2C065F0F00A0C9A2 /* GlobeNeptune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AEC2C065F0F00A0C9A2 /* GlobeNeptune.swift */; };
+		17945AEF2C065F2100A0C9A2 /* GlobeNeptuneControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AEE2C065F2100A0C9A2 /* GlobeNeptuneControls.swift */; };
+		17945AF12C065F3100A0C9A2 /* GlobeNeptuneModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AF02C065F3100A0C9A2 /* GlobeNeptuneModule.swift */; };
+		17945AF32C065F4400A0C9A2 /* GlobeSun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AF22C065F4400A0C9A2 /* GlobeSun.swift */; };
+		17945AF52C065F5900A0C9A2 /* GlobeSunControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AF42C065F5900A0C9A2 /* GlobeSunControls.swift */; };
+		17945AF72C065F6900A0C9A2 /* GlobeSunModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17945AF62C065F6900A0C9A2 /* GlobeSunModule.swift */; };
 		C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227C2988392F00732240 /* Entity+Sunlight.swift */; };
 		C200227F29883B3900732240 /* GlobeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200227E29883B3900732240 /* GlobeSettings.swift */; };
 		C20197A429E3D9C900C6A20F /* SatelliteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20197A329E3D9C900C6A20F /* SatelliteEntity.swift */; };
@@ -105,6 +126,27 @@
 		17945AC82C03849100A0C9A2 /* GlobeMarsControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeMarsControls.swift; sourceTree = "<group>"; };
 		17945ACA2C0384AD00A0C9A2 /* GlobeMarsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeMarsModule.swift; sourceTree = "<group>"; };
 		17945ACC2C0393FF00A0C9A2 /* AlignmentGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuides.swift; sourceTree = "<group>"; };
+		17945ACE2C065D3B00A0C9A2 /* GlobeMercury.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeMercury.swift; sourceTree = "<group>"; };
+		17945AD02C065D4900A0C9A2 /* GlobeMercuryControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeMercuryControls.swift; sourceTree = "<group>"; };
+		17945AD22C065D5C00A0C9A2 /* GlobeMercuryModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeMercuryModule.swift; sourceTree = "<group>"; };
+		17945AD42C065DB700A0C9A2 /* GlobeVenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeVenus.swift; sourceTree = "<group>"; };
+		17945AD62C065DC400A0C9A2 /* GlobeVenusControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeVenusControls.swift; sourceTree = "<group>"; };
+		17945AD82C065DE000A0C9A2 /* GlobeVenusModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeVenusModule.swift; sourceTree = "<group>"; };
+		17945ADA2C065E0100A0C9A2 /* GlobeJupiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeJupiter.swift; sourceTree = "<group>"; };
+		17945ADC2C065E1B00A0C9A2 /* GlobeJupiterControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeJupiterControls.swift; sourceTree = "<group>"; };
+		17945ADE2C065E2900A0C9A2 /* GlobeJupiterModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeJupiterModule.swift; sourceTree = "<group>"; };
+		17945AE02C065E4900A0C9A2 /* GlobeUranus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeUranus.swift; sourceTree = "<group>"; };
+		17945AE22C065E5400A0C9A2 /* GlobeUranusControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeUranusControls.swift; sourceTree = "<group>"; };
+		17945AE42C065E7E00A0C9A2 /* GlobeUranusModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeUranusModule.swift; sourceTree = "<group>"; };
+		17945AE62C065E9000A0C9A2 /* GlobeSaturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeSaturn.swift; sourceTree = "<group>"; };
+		17945AE82C065EA200A0C9A2 /* GlobeSaturnControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeSaturnControls.swift; sourceTree = "<group>"; };
+		17945AEA2C065EBB00A0C9A2 /* GlobeSaturnModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeSaturnModule.swift; sourceTree = "<group>"; };
+		17945AEC2C065F0F00A0C9A2 /* GlobeNeptune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeNeptune.swift; sourceTree = "<group>"; };
+		17945AEE2C065F2100A0C9A2 /* GlobeNeptuneControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeNeptuneControls.swift; sourceTree = "<group>"; };
+		17945AF02C065F3100A0C9A2 /* GlobeNeptuneModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeNeptuneModule.swift; sourceTree = "<group>"; };
+		17945AF22C065F4400A0C9A2 /* GlobeSun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeSun.swift; sourceTree = "<group>"; };
+		17945AF42C065F5900A0C9A2 /* GlobeSunControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeSunControls.swift; sourceTree = "<group>"; };
+		17945AF62C065F6900A0C9A2 /* GlobeSunModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeSunModule.swift; sourceTree = "<group>"; };
 		6FD03BD460C2666C0917AC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		BA5D813EE652D2B6F9AA7B35 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C200227C2988392F00732240 /* Entity+Sunlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entity+Sunlight.swift"; sourceTree = "<group>"; };
@@ -272,6 +314,27 @@
 				17945AC82C03849100A0C9A2 /* GlobeMarsControls.swift */,
 				17945ACA2C0384AD00A0C9A2 /* GlobeMarsModule.swift */,
 				17945ACC2C0393FF00A0C9A2 /* AlignmentGuides.swift */,
+				17945ACE2C065D3B00A0C9A2 /* GlobeMercury.swift */,
+				17945AD02C065D4900A0C9A2 /* GlobeMercuryControls.swift */,
+				17945AD22C065D5C00A0C9A2 /* GlobeMercuryModule.swift */,
+				17945AD42C065DB700A0C9A2 /* GlobeVenus.swift */,
+				17945AD62C065DC400A0C9A2 /* GlobeVenusControls.swift */,
+				17945AD82C065DE000A0C9A2 /* GlobeVenusModule.swift */,
+				17945ADA2C065E0100A0C9A2 /* GlobeJupiter.swift */,
+				17945ADC2C065E1B00A0C9A2 /* GlobeJupiterControls.swift */,
+				17945ADE2C065E2900A0C9A2 /* GlobeJupiterModule.swift */,
+				17945AE02C065E4900A0C9A2 /* GlobeUranus.swift */,
+				17945AE22C065E5400A0C9A2 /* GlobeUranusControls.swift */,
+				17945AE42C065E7E00A0C9A2 /* GlobeUranusModule.swift */,
+				17945AE62C065E9000A0C9A2 /* GlobeSaturn.swift */,
+				17945AE82C065EA200A0C9A2 /* GlobeSaturnControls.swift */,
+				17945AEA2C065EBB00A0C9A2 /* GlobeSaturnModule.swift */,
+				17945AEC2C065F0F00A0C9A2 /* GlobeNeptune.swift */,
+				17945AEE2C065F2100A0C9A2 /* GlobeNeptuneControls.swift */,
+				17945AF02C065F3100A0C9A2 /* GlobeNeptuneModule.swift */,
+				17945AF22C065F4400A0C9A2 /* GlobeSun.swift */,
+				17945AF42C065F5900A0C9A2 /* GlobeSunControls.swift */,
+				17945AF62C065F6900A0C9A2 /* GlobeSunModule.swift */,
 			);
 			path = Globe;
 			sourceTree = "<group>";
@@ -459,10 +522,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17945AE72C065E9000A0C9A2 /* GlobeSaturn.swift in Sources */,
 				C2D21553294D210B00634A99 /* Globe.swift in Sources */,
+				17945AD72C065DC400A0C9A2 /* GlobeVenusControls.swift in Sources */,
 				172876EC2BFB3330009C7BC6 /* MarsEntity.swift in Sources */,
 				C25EFB7029DE7D1500D3CBB6 /* Entity+Trace.swift in Sources */,
 				C25AD07D29EC6C1E0012834D /* EarthEntity.swift in Sources */,
+				17945AD92C065DE000A0C9A2 /* GlobeVenusModule.swift in Sources */,
 				17945AC92C03849100A0C9A2 /* GlobeMarsControls.swift in Sources */,
 				C200227F29883B3900732240 /* GlobeSettings.swift in Sources */,
 				C205CF952919C70D0067444C /* Starfield.swift in Sources */,
@@ -470,18 +536,25 @@
 				C2A823602A859109006F6AFF /* OrbitToggle.swift in Sources */,
 				C200227D2988392F00732240 /* Entity+Sunlight.swift in Sources */,
 				172876EE2BFB33B3009C7BC6 /* MarsEntity+Configuration.swift in Sources */,
+				17945AF72C065F6900A0C9A2 /* GlobeSunModule.swift in Sources */,
+				17945AD12C065D4900A0C9A2 /* GlobeMercuryControls.swift in Sources */,
+				17945AF52C065F5900A0C9A2 /* GlobeSunControls.swift in Sources */,
 				C253D5772947E44200B292CA /* OrbitSettings.swift in Sources */,
 				C25617D829CCB6040064FD50 /* SolarSystemControls.swift in Sources */,
 				17945AA52C00D85100A0C9A2 /* VenusEntity+Configuration.swift in Sources */,
 				C205CF972919CD070067444C /* RealityViewsSun.swift in Sources */,
 				C2F2CA362A391D6B00E1C2A2 /* SatelliteSettings.swift in Sources */,
 				C2C1C8DB29ECA8CC00DA5D97 /* EarthEntity+Configuration.swift in Sources */,
+				17945AEF2C065F2100A0C9A2 /* GlobeNeptuneControls.swift in Sources */,
 				C2A8235E2A858A1C006F6AFF /* SolarSystemToggle.swift in Sources */,
 				C2589191297625C90071BD5F /* PlacementGesturesModifier.swift in Sources */,
 				17945ABD2C0103B200A0C9A2 /* NeptuneEntity+Configuration.swift in Sources */,
 				17945A9F2C00D27F00A0C9A2 /* MercuryEntity+Configuration.swift in Sources */,
 				17945A9B2C00D12A00A0C9A2 /* RealityViewsMercury.swift in Sources */,
+				17945ADB2C065E0100A0C9A2 /* GlobeJupiter.swift in Sources */,
 				C2A823622A8591FC006F6AFF /* GlobeToggle.swift in Sources */,
+				17945ACF2C065D3B00A0C9A2 /* GlobeMercury.swift in Sources */,
+				17945AD32C065D5C00A0C9A2 /* GlobeMercuryModule.swift in Sources */,
 				17945AB32C00FDEC00A0C9A2 /* RealityViewsUranus.swift in Sources */,
 				C25774DE29E2401F00A75567 /* SolarSystemModule.swift in Sources */,
 				C25E9E7828EBB5430033B333 /* RealityViewsEarth.swift in Sources */,
@@ -491,10 +564,14 @@
 				17945ABB2C01039200A0C9A2 /* NeptuneEntity.swift in Sources */,
 				C2F31EFC29CC01BC009742AD /* TableOfContents.swift in Sources */,
 				17945AB12C00F9D400A0C9A2 /* SaturnEntity+Configuration.swift in Sources */,
+				17945ADD2C065E1B00A0C9A2 /* GlobeJupiterControls.swift in Sources */,
+				17945AE12C065E4900A0C9A2 /* GlobeUranus.swift in Sources */,
 				17945AA12C00D74A00A0C9A2 /* RealityViewsVenus.swift in Sources */,
 				C2DEDA242996FAAB00F5265B /* GlobeControls.swift in Sources */,
+				17945ADF2C065E2900A0C9A2 /* GlobeJupiterModule.swift in Sources */,
 				17945AAD2C00F8C600A0C9A2 /* RealityViewsSaturn.swift in Sources */,
 				C2E652D42919E41A007934BC /* SolarSystemSettings.swift in Sources */,
+				17945AEB2C065EBB00A0C9A2 /* GlobeSaturnModule.swift in Sources */,
 				17945AA32C00D83800A0C9A2 /* VenusEntity.swift in Sources */,
 				C2F31EF829CA8F4E009742AD /* Modules.swift in Sources */,
 				172876EA2BFB0642009C7BC6 /* RealityViewsMars.swift in Sources */,
@@ -512,16 +589,23 @@
 				17945AAB2C00DFBD00A0C9A2 /* JupiterEntity+Configuration.swift in Sources */,
 				17945ABF2C01701B00A0C9A2 /* Camera.swift in Sources */,
 				17945ACB2C0384AD00A0C9A2 /* GlobeMarsModule.swift in Sources */,
+				17945AED2C065F0F00A0C9A2 /* GlobeNeptune.swift in Sources */,
 				17945AB92C0102EF00A0C9A2 /* RealityViewsNeptune.swift in Sources */,
 				17945AA72C00DE5600A0C9A2 /* RealityViewsJupiter.swift in Sources */,
 				17945AB72C00FEC500A0C9A2 /* UranusEntity+Configuration.swift in Sources */,
 				17945AB52C00FEAD00A0C9A2 /* UranusEntity.swift in Sources */,
 				17945A9D2C00D26600A0C9A2 /* MercuryEntity.swift in Sources */,
+				17945AE92C065EA200A0C9A2 /* GlobeSaturnControls.swift in Sources */,
+				17945AE32C065E5400A0C9A2 /* GlobeUranusControls.swift in Sources */,
 				17945ACD2C0393FF00A0C9A2 /* AlignmentGuides.swift in Sources */,
 				17945AAF2C00F9A200A0C9A2 /* SaturnEntity.swift in Sources */,
+				17945AF12C065F3100A0C9A2 /* GlobeNeptuneModule.swift in Sources */,
+				17945AD52C065DB700A0C9A2 /* GlobeVenus.swift in Sources */,
 				C258918F2975EB7E0071BD5F /* SliderGridRow.swift in Sources */,
 				C2CD36432A3A7682003811D3 /* ModuleCard.swift in Sources */,
 				C20197A429E3D9C900C6A20F /* SatelliteEntity.swift in Sources */,
+				17945AF32C065F4400A0C9A2 /* GlobeSun.swift in Sources */,
+				17945AE52C065E7E00A0C9A2 /* GlobeUranusModule.swift in Sources */,
 				C255636A291D8A0300398FCE /* Orbit.swift in Sources */,
 				C2F31F0029CC0858009742AD /* ModuleDetail.swift in Sources */,
 			);

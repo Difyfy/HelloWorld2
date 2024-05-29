@@ -11,15 +11,15 @@ import RealityKit
 import WorldAssets
 
 /// A model of Mercury.
-struct Mercury: View {
+struct MercurySolar: View {
     var scale: Float = 1
     var position: SIMD3<Float> = .zero
 
-    @State private var mercury: MercuryEntity?
+    @State private var mercurySolar: MercuryEntity?
 
     var body: some View {
         RealityView { content in
-            if mercury == nil {
+            if mercurySolar == nil {
                 // Load the Mercury entity only if it hasn't been loaded yet
                 //This part of the code just CREATES the actual MercuryEntity
                 let configuration = MercuryEntity.Configuration(
@@ -29,7 +29,7 @@ struct Mercury: View {
                 //This NEXT PART MAKES SURE IT IS ONLY LOADED ONCE!
                 let mercuryEntity = await MercuryEntity(configuration: configuration)
                 content.add(mercuryEntity)
-                self.mercury = mercuryEntity
+                self.mercurySolar = mercuryEntity
             }
         }
         .onAppear {
@@ -38,12 +38,12 @@ struct Mercury: View {
     }
 
     private func configure() {
-        guard let mercury = mercury else { return }
+        guard let mercury = mercurySolar else { return }
         mercury.update(configuration: MercuryEntity.Configuration(scale: scale, position: position), animateUpdates: false)
         print("Mercury configured with position: \(position) and scale: \(scale)")
     }
 }
 
 #Preview {
-    Mercury(scale: 1)
+    MercurySolar(scale: 1)
 }

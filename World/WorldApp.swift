@@ -42,6 +42,48 @@ struct WorldApp: App {
         }
         .windowStyle(.volumetric)
         .defaultSize(width: 0.6, height: 0.6, depth: 0.6, in: .meters)
+        
+        WindowGroup(id: "GlobeJupiter") {
+            Jupiter()
+                .environment(model)
+        }
+        .windowStyle(.volumetric)
+        .defaultSize(width: 0.6, height: 0.6, depth: 0.6, in: .meters)
+        
+        WindowGroup(id: "GlobeSaturn") {
+            Saturn()
+                .environment(model)
+        }
+        .windowStyle(.volumetric)
+        .defaultSize(width: 0.85, height: 0.85, depth: 0.85, in: .meters)
+        
+        WindowGroup(id: "GlobeUranus") {
+            Uranus()
+                .environment(model)
+        }
+        .windowStyle(.volumetric)
+        .defaultSize(width: 0.6, height: 0.6, depth: 0.6, in: .meters)
+        
+        WindowGroup(id: "GlobeNeptune") {
+            Neptune()
+                .environment(model)
+        }
+        .windowStyle(.volumetric)
+        .defaultSize(width: 0.6, height: 0.6, depth: 0.6, in: .meters)
+        
+        WindowGroup(id: "GlobeMercury") {
+            Mercury()
+                .environment(model)
+        }
+        .windowStyle(.volumetric)
+        .defaultSize(width: 0.6, height: 0.6, depth: 0.6, in: .meters)
+        
+        /*WindowGroup(id: "GlobeVenus") {
+            Venus()
+                .environment(model)
+        }
+        .windowStyle(.volumetric)
+        .defaultSize(width: 0.6, height: 0.6, depth: 0.6, in: .meters)*/
         /*====================================================================*/
 
         // An immersive space that places the Earth with some of its satellites

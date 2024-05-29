@@ -16,6 +16,11 @@ class ViewModel: Observable {
     var titleText: String = ""
     var isTitleFinished: Bool = false
     var finalTitle: String = "Quantum Cosmology"//Hello World
+    
+    // MARK: - Sun
+    /*var isShowingSun: Bool = false
+    var sunConfiguration: SunEntity.Configuration = .defaultConfiguration
+    var isSunRotating: Bool = true*/
 
     // MARK: - Globe
     var isShowingGlobe: Bool = false
@@ -60,6 +65,10 @@ class ViewModel: Observable {
          0,//WAS 0
          Float(solarMercuryDistance * cos(solarEarth.sunAngle.radians))]
     }
+    var isShowingMercury: Bool = false
+    var mercuryConfiguration: MercuryEntity.Configuration = .defaultConfiguration
+    var isMercuryRotating: Bool = true
+    
     // MARK: - Venus
     var solarVenusDistance: Double = 72 // Example distance of Venus from the Sun .. was 1200
     var solarVenusPosition: SIMD3<Float> {
@@ -67,6 +76,9 @@ class ViewModel: Observable {
          0,//WAS 0
          Float(solarVenusDistance * cos(solarEarth.sunAngle.radians))]
     }
+    var isShowingVenus: Bool = false
+    var venusConfiguration: VenusEntity.Configuration = .defaultConfiguration
+    var isVenusRotating: Bool = true
     
     // MARK: - Jupiter
     var solarJupiterDistance: Double = 120 // Example distance of Jupiter from the Sun .. was 1200
@@ -75,6 +87,10 @@ class ViewModel: Observable {
          0,//WAS 0
          Float(solarJupiterDistance * cos(solarEarth.sunAngle.radians))]
     }
+    var isShowingJupiter: Bool = false
+    var jupiterConfiguration: JupiterEntity.Configuration = .defaultConfiguration
+    var isJupiterRotating: Bool = true
+    
     // MARK: - Saturn
     var solarSaturnDistance: Double = 150 // Example distance of Saturn from the Sun .. was 1200
     var solarSaturnPosition: SIMD3<Float> {
@@ -82,6 +98,10 @@ class ViewModel: Observable {
          0,//WAS 0
          Float(solarSaturnDistance * cos(solarEarth.sunAngle.radians))]
     }
+    var isShowingSaturn: Bool = false
+    var saturnConfiguration: SaturnEntity.Configuration = .defaultConfiguration
+    var isSaturnRotating: Bool = true
+    
     // MARK: - Uranus
     var solarUranusDistance: Double = 170 // Example distance of Uranus from the Sun .. was 1200
     var solarUranusPosition: SIMD3<Float> {
@@ -89,6 +109,10 @@ class ViewModel: Observable {
          0,//WAS 0
          Float(solarUranusDistance * cos(solarEarth.sunAngle.radians))]
     }
+    var isShowingUranus: Bool = false
+    var uranusConfiguration: UranusEntity.Configuration = .defaultConfiguration
+    var isUranusRotating: Bool = true
+    
     // MARK: - Neptune
     var solarNeptuneDistance: Double = 195 // Example distance of Neptune from the Sun .. was 1200
     var solarNeptunePosition: SIMD3<Float> {
@@ -96,6 +120,9 @@ class ViewModel: Observable {
          0,//WAS 0
          Float(solarNeptuneDistance * cos(solarEarth.sunAngle.radians))]
     }
+    var isShowingNeptune: Bool = false
+    var neptuneConfiguration: NeptuneEntity.Configuration = .defaultConfiguration
+    var isNeptuneRotating: Bool = true
 }
 
 

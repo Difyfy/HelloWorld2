@@ -11,15 +11,15 @@ import RealityKit
 import WorldAssets
 
 /// A model of Uranus.
-struct Uranus: View {
+struct UranusSolar: View {
     var scale: Float = 1
     var position: SIMD3<Float> = .zero
 
-    @State private var uranus: UranusEntity?
+    @State private var uranusSolar: UranusEntity?
 
     var body: some View {
         RealityView { content in
-            if uranus == nil {
+            if uranusSolar == nil {
                 // Load the Uranus entity only if it hasn't been loaded yet
                 //This part of the code just CREATES the actual UranusEntity
                 let configuration = UranusEntity.Configuration(
@@ -29,7 +29,7 @@ struct Uranus: View {
                 //This NEXT PART MAKES SURE IT IS ONLY LOADED ONCE!
                 let uranusEntity = await UranusEntity(configuration: configuration)
                 content.add(uranusEntity)
-                self.uranus = uranusEntity
+                self.uranusSolar = uranusEntity
             }
         }
         .onAppear {
@@ -38,12 +38,12 @@ struct Uranus: View {
     }
 
     private func configure() {
-        guard let uranus = uranus else { return }
+        guard let uranus = uranusSolar else { return }
         uranus.update(configuration: UranusEntity.Configuration(scale: scale, position: position), animateUpdates: false)
         print("Uranus configured with position: \(position) and scale: \(scale)")
     }
 }
 
 #Preview {
-    Uranus(scale: 1)
+    UranusSolar(scale: 1)
 }

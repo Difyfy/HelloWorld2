@@ -20,14 +20,14 @@ struct SolarSystem: View {
                 position: [0, 0, 0]//model.solarSunPosition*/
             )
             //The PLANETS
-            Mercury(scale: 35, position: [70, 0, 10]//Was 15 ... too small
+            MercurySolar(scale: 35, position: [70, 0, 10])//Was 15 ... too small
                 /*scale: 10, // Adjust scale as needed WAS 1
                 position: model.solarMercuryPosition // Use the new solarMercuryPosition*/
-            )
-            Venus(scale: 42, position: [85, 0, 0]//Was 22 ... too small
+            
+            VenusSolar(scale: 42, position: [85, 0, 0])//Was 22 ... too small
                 /*scale: 17, // Shoud be 17
                 position: model.solarVenusPosition // Use the new solarVenusPosition*/
-            )
+            
             Earth(
                 earthConfiguration: model.solarEarth,
                 satelliteConfiguration: [model.solarSatellite],
@@ -35,26 +35,26 @@ struct SolarSystem: View {
             )
 
             //I am ADDING the code for Mars into the Solar System
-            MarsSolar(scale: 45, position: [115, 0, -10]
+            MarsSolar(scale: 45, position: [115, 0, -10])
                 /*scale: 30, // Adjust scale as needed WAS 1
                 position: model.solarMarsPosition // Use the new solarMarsPosition*/
-            )
-            Jupiter(scale: 95, position: [230, 0, 0]
+            
+            JupiterSolar(scale: 95, position: [230, 0, 0])
                 /*scale: 66, // Adjust scale as needed WAS 1
                 position: model.solarJupiterPosition // Use the new solarJupiterPosition*/
-            )
-            Saturn(scale: 120, position: [360, 0, 0]
+            
+            SaturnSolar(scale: 120, position: [360, 0, 0])
                 /*scale: 54, // Adjust scale as needed Should be 60
                 position: model.solarSaturnPosition // Use the new solarSaturnPosition*/
-            )
-            Uranus(scale: 60, position: [420, 0, 0]
+            
+            UranusSolar(scale: 60, position: [420, 0, 0])
                 /*scale: 30, // Adjust scale as needed Should be 50
                 position: model.solarUranusPosition // Use the new solarUranusPosition*/
-            )
-            Neptune(scale: 55, position: [470, 0, 0]
+            
+            NeptuneSolar(scale: 55, position: [470, 0, 0])
                 /*scale: 28, // Adjust scale as needed Should be 50
                 position: model.solarNeptunePosition // Use the new solarNeptunePosition*/
-            )
+            
             
             Starfield()
             
