@@ -17,12 +17,12 @@ struct Mercury: View {
     @State private var mercuryEntity: MercuryEntity?
     @State var axRotateClockwise: Bool = false
     @State var axRotateCounterClockwise: Bool = false
-    @State private var mercury: MercuryEntity?
+    @State private var mercurySolar: MercuryEntity?
 
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .controlPanelGuide, vertical: .bottom)) {
             RealityView { content in
-                if mercury == nil {
+                if mercurySolar == nil {
                     // Load the Mercury entity only if it hasn't been loaded yet
                     let configuration = MercuryEntity.Configuration(
                         scale: 2.5, // Adjust scale as needed
@@ -30,10 +30,10 @@ struct Mercury: View {
                     )
                     let mercuryEntity = await MercuryEntity(configuration: configuration)
                     content.add(mercuryEntity)
-                    self.mercury = mercuryEntity
+                    self.mercurySolar = mercuryEntity
                 }
             } update: { content in
-                guard let mercuryEntity = mercury else { return }
+                guard let mercuryEntity = mercurySolar else { return }
                 // Update the Mercury entity configuration.
                 mercuryEntity.update(
                     configuration: model.mercuryConfiguration,
@@ -64,7 +64,7 @@ struct Mercury: View {
     }
 
     private func configure(scale: Float, position: SIMD3<Float>) {//ADD 'scale' and 'position' variables
-        guard let mercury = mercury else { return }
+        guard let mercury = mercurySolar else { return }
         mercury.update(configuration: MercuryEntity.Configuration(scale: 2.5, position: .zero), animateUpdates: false)
         print("Mercury configured with position: \(position) and scale: \(scale)")
     }

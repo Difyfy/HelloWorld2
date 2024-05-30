@@ -35,20 +35,6 @@ struct MarsControls: View {
         .accessibilitySortPriority(2)
     }
 }
-/*
-extension HorizontalAlignment {
-    /// A custom alignment to center the control panel under Mars.
-    private struct ControlPanelAlignment: AlignmentID {
-        static func defaultValue(in context: ViewDimensions) -> CGFloat {
-            context[HorizontalAlignment.center]
-        }
-    }
-
-    /// A custom alignment guide to center the control panel under Mars.
-    static let controlPanelGuide = HorizontalAlignment(
-        ControlPanelAlignment.self
-    )
-}*/
 
 #Preview {
     MarsControls()

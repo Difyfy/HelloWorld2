@@ -55,6 +55,7 @@ struct GlobeToggle: View {
                         }
                     }
                     .toggleStyle(.button)
+                
                 Toggle("View Mercury", isOn: $model.isShowingMercury)
                     .onChange(of: model.isShowingMercury) { _, isShowing in
                         if isShowing {

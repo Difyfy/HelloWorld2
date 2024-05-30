@@ -58,7 +58,7 @@ class ViewModel: Observable {
          0,
          Float(solarSunDistance * cos(solarEarth.sunAngle.radians))]
     }
-    // MARK: - Mercury
+    // MARK: - MercurySolar
     var solarMercuryDistance: Double = 68 // Example distance of Mercury from the Sun .. was 1200
     var solarMercuryPosition: SIMD3<Float> {
         [Float(solarMercuryDistance * sin(solarEarth.sunAngle.radians)),

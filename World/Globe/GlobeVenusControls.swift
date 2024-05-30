@@ -16,11 +16,11 @@ struct VenusControls: View {
         @Bindable var model = model
 
         HStack(spacing: 17) {
-            Toggle(isOn: $model.marsConfiguration.showSun) {
+            Toggle(isOn: $model.venusConfiguration.showSun) {
                 Label("Sun", systemImage: "sun.max")
             }
 
-            Toggle(isOn: $model.isMarsRotating) {
+            Toggle(isOn: $model.isVenusRotating) {
                 Label("Rotate", systemImage: "arrow.triangle.2.circlepath")
             }
         }

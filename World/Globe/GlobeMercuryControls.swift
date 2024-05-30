@@ -16,11 +16,11 @@ struct MercuryControls: View {
         @Bindable var model = model
 
         HStack(spacing: 17) {
-            Toggle(isOn: $model.marsConfiguration.showSun) {
+            Toggle(isOn: $model.mercuryConfiguration.showSun) {
                 Label("Sun", systemImage: "sun.max")
             }
 
-            Toggle(isOn: $model.isMarsRotating) {
+            Toggle(isOn: $model.isMercuryRotating) {
                 Label("Rotate", systemImage: "arrow.triangle.2.circlepath")
             }
         }

@@ -16,7 +16,7 @@ class MercuryEntity: Entity {
     // MARK: - Sub-entities
 
     /// The model that draws Mercury's surface features.
-    private var mercury: Entity = Entity()
+    private var mercurySolar: Entity = Entity()
 
     // MARK: - Initializers
 
@@ -32,12 +32,12 @@ class MercuryEntity: Entity {
     init(configuration: Configuration) async {
         super.init()
 
-        // Load the Mars model.
-        guard let mercury = await WorldAssets.entity(named: "Mercury") else { return }
-        self.mercury = mercury
+        // Load the Mercury model.
+        guard let mercurySolar = await WorldAssets.entity(named: "Mercury") else { return }
+        self.mercurySolar = mercurySolar
 
         // Attach the Mercury model to the entity.
-        self.addChild(mercury)
+        self.addChild(mercurySolar)
 
         // Configure everything for the first time.
         update(configuration: configuration, animateUpdates: false)
@@ -53,14 +53,14 @@ class MercuryEntity: Entity {
     ///     configuration values should be animated.
     func update(configuration: Configuration, animateUpdates: Bool) {
         // Set the rotation of Mercury.
-        mercury.orientation = configuration.rotation
+        mercurySolar.orientation = configuration.rotation
 
         // Set the speed of Mercury's rotation on its axis.
-        if var rotation: RotationComponent = mercury.components[RotationComponent.self] {
+        if var rotation: RotationComponent = mercurySolar.components[RotationComponent.self] {
             rotation.speed = configuration.currentSpeed
-            mercury.components[RotationComponent.self] = rotation
+            mercurySolar.components[RotationComponent.self] = rotation
         } else {
-            mercury.components.set(RotationComponent(speed: configuration.currentSpeed))
+            mercurySolar.components.set(RotationComponent(speed: configuration.currentSpeed))
         }
 
         // Set the sunlight, if corresponding controls have changed.
