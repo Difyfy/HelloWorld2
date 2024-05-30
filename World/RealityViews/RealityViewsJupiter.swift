@@ -11,15 +11,15 @@ import RealityKit
 import WorldAssets
 
 /// A model of Jupiter.
-struct Jupiter: View {
+struct JupiterSolar: View {
     var scale: Float = 1
     var position: SIMD3<Float> = .zero
 
-    @State private var jupiter: JupiterEntity?
+    @State private var jupiterSolar: JupiterEntity?
 
     var body: some View {
         RealityView { content in
-            if jupiter == nil {
+            if jupiterSolar == nil {
                 // Load the Jupiter entity only if it hasn't been loaded yet
                 //This part of the code just CREATES the actual JupiterEntity
                 let configuration = JupiterEntity.Configuration(
@@ -29,7 +29,7 @@ struct Jupiter: View {
                 //This NEXT PART MAKES SURE IT IS ONLY LOADED ONCE!
                 let jupiterEntity = await JupiterEntity(configuration: configuration)
                 content.add(jupiterEntity)
-                self.jupiter = jupiterEntity
+                self.jupiterSolar = jupiterEntity
             }
         }
         .onAppear {
@@ -38,12 +38,12 @@ struct Jupiter: View {
     }
 
     private func configure() {
-        guard let jupiter = jupiter else { return }
+        guard let jupiter = jupiterSolar else { return }
         jupiter.update(configuration: JupiterEntity.Configuration(scale: scale, position: position), animateUpdates: false)
         print("Jupiter configured with position: \(position) and scale: \(scale)")
     }
 }
 
 #Preview {
-    Jupiter(scale: 1)
+    JupiterSolar(scale: 1)
 }

@@ -11,15 +11,15 @@ import RealityKit
 import WorldAssets
 
 /// A model of Neptune.
-struct Neptune: View {
+struct NeptuneSolar: View {
     var scale: Float = 1
     var position: SIMD3<Float> = .zero
 
-    @State private var neptune: NeptuneEntity?
+    @State private var neptuneSolar: NeptuneEntity?
 
     var body: some View {
         RealityView { content in
-            if neptune == nil {
+            if neptuneSolar == nil {
                 // Load the Neptune entity only if it hasn't been loaded yet
                 //This part of the code just CREATES the actual NeptuneEntity
                 let configuration = NeptuneEntity.Configuration(
@@ -29,7 +29,7 @@ struct Neptune: View {
                 //This NEXT PART MAKES SURE IT IS ONLY LOADED ONCE!
                 let neptuneEntity = await NeptuneEntity(configuration: configuration)
                 content.add(neptuneEntity)
-                self.neptune = neptuneEntity
+                self.neptuneSolar = neptuneEntity
             }
         }
         .onAppear {
@@ -38,12 +38,12 @@ struct Neptune: View {
     }
 
     private func configure() {
-        guard let neptune = neptune else { return }
+        guard let neptune = neptuneSolar else { return }
         neptune.update(configuration: NeptuneEntity.Configuration(scale: scale, position: position), animateUpdates: false)
         print("Neptune configured with position: \(position) and scale: \(scale)")
     }
 }
 
 #Preview {
-    Neptune(scale: 1)
+    NeptuneSolar(scale: 1)
 }

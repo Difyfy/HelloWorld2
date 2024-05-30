@@ -32,7 +32,7 @@ extension NeptuneEntity {
         }
 
         static var defaultConfiguration: Configuration = .init(
-            scale: 1.0,
+            scale: 2.5, //WAS 1.0,
             speed: 0.05,
             position: [0, 0, 0]
         )

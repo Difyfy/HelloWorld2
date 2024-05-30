@@ -12,7 +12,7 @@ extension SaturnEntity {
     /// Configuration information for Saturn entities.
     struct Configuration {
         var scale: Float = 1.0
-        var rotation: simd_quatf = .init(angle: 0, axis: [0, 1, 0])
+        var rotation: simd_quatf = .init(angle: 55, axis: [0, 1, 0])
         var speed: Float = 0
         var isPaused: Bool = false
         var position: SIMD3<Float> = .zero
@@ -32,7 +32,7 @@ extension SaturnEntity {
         }
 
         static var defaultConfiguration: Configuration = .init(
-            scale: 1.0,
+            scale: 1.8, //WAS 1.0,
             speed: 0.05,
             position: [0, 0, 0]
         )

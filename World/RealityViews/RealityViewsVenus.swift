@@ -11,15 +11,15 @@ import RealityKit
 import WorldAssets
 
 /// A model of Venus.
-struct Venus: View {
+struct VenusSolar: View {
     var scale: Float = 1
     var position: SIMD3<Float> = .zero
 
-    @State private var venus: VenusEntity?
+    @State private var venusSolar: VenusEntity?
 
     var body: some View {
         RealityView { content in
-            if venus == nil {
+            if venusSolar == nil {
                 // Load the Venus entity only if it hasn't been loaded yet
                 //This part of the code just CREATES the actual VenusEntity
                 let configuration = VenusEntity.Configuration(
@@ -29,7 +29,7 @@ struct Venus: View {
                 //This NEXT PART MAKES SURE IT IS ONLY LOADED ONCE!
                 let venusEntity = await VenusEntity(configuration: configuration)
                 content.add(venusEntity)
-                self.venus = venusEntity
+                self.venusSolar = venusEntity
             }
         }
         .onAppear {
@@ -38,12 +38,12 @@ struct Venus: View {
     }
 
     private func configure() {
-        guard let venus = venus else { return }
+        guard let venus = venusSolar else { return }
         venus.update(configuration: VenusEntity.Configuration(scale: scale, position: position), animateUpdates: false)
         print("Venus configured with position: \(position) and scale: \(scale)")
     }
 }
 
 #Preview {
-    Venus(scale: 1)
+    VenusSolar(scale: 1)
 }

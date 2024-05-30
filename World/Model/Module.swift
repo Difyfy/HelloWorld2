@@ -17,9 +17,9 @@ enum Module: String, Identifiable, CaseIterable, Equatable {
     var eyebrow: String {
         switch self {
         case .globe:
-            "The Visible Universe"//A Day in the Life
+            "THE COSMOS: The Visible Universe"//A Day in the Life
         case .orbit:
-            "The Invisible Universe"//Our Nearby Neighbors
+            "DARK MATTER: The Invisible Universe"//Our Nearby Neighbors
         case .solar:
             "The Integrated Universe"//Soaring Through Space
         }
@@ -28,9 +28,9 @@ enum Module: String, Identifiable, CaseIterable, Equatable {
     var heading: String {
         switch self {
         case .globe:
-            "The Cosmos"//Planet Earth
+            "Galaxies +"//Planet Earth
         case .orbit:
-            "Dark Matter"//Objects in Orbit
+            "Dark Matter ="//Objects in Orbit
         case .solar:
             "The Universe"//The Solar System
         }
